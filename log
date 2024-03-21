@@ -46,3 +46,18 @@ exercises.c:67:27: error: expected statement before ‘)’ token
 cc1: all warnings being treated as errors
 Compilation failed
 7f61db7
+Thu 21 Mar 2024 02:52:08 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:62:22: error: implicit declaration of function ‘firts’; did you mean ‘first’? [-Werror=implicit-function-declaration]
+   62 |    int *dato = (int*)firts(L);
+      |                      ^~~~~
+      |                      first
+exercises.c:62:16: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+   62 |    int *dato = (int*)firts(L);
+      |                ^
+cc1: all warnings being treated as errors
+Compilation failed
+24a1944

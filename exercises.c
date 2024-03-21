@@ -64,7 +64,7 @@ int sumaLista(List *L) {
    while (dato != NULL){
 
      suma += *dato;
-     dato = (int*)next(L);)
+     dato = (int*)next(L);
    }
    return suma;
 }
