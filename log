@@ -61,3 +61,18 @@ exercises.c:62:16: error: cast to pointer from integer of different size [-Werro
 cc1: all warnings being treated as errors
 Compilation failed
 24a1944
+Thu 21 Mar 2024 03:00:39 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:63:17: error: implicit declaration of function ‘firts’; did you mean ‘first’? [-Werror=implicit-function-declaration]
+   63 |    dato = (int*)firts(L);
+      |                 ^~~~~
+      |                 first
+exercises.c:63:11: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+   63 |    dato = (int*)firts(L);
+      |           ^
+cc1: all warnings being treated as errors
+Compilation failed
+5dce416
