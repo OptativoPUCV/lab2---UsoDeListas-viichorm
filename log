@@ -102,3 +102,13 @@ exercises.c:81:8: error: variable ‘dato’ set but not used [-Werror=unused-bu
 cc1: all warnings being treated as errors
 Compilation failed
 b879eeb
+Thu 21 Mar 2024 03:02:47 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:82:22: error: expected expression before ‘List’
+   82 |   dato = (int*)first(List *L);
+      |                      ^~~~
+Compilation failed
+1b51f89
