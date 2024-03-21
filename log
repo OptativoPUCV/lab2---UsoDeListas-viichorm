@@ -112,3 +112,9 @@ exercises.c:82:22: error: expected expression before ‘List’
       |                      ^~~~
 Compilation failed
 1b51f89
+Thu 21 Mar 2024 03:03:08 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+77752d0
