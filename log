@@ -28,3 +28,21 @@ Thu 21 Mar 2024 02:48:51 PM UTC:
  tests:  1|4
 total_score: 10/70
 c101523
+Thu 21 Mar 2024 02:51:42 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:62:22: error: implicit declaration of function ‘firts’; did you mean ‘first’? [-Werror=implicit-function-declaration]
+   62 |    int *dato = (int*)firts(L);
+      |                      ^~~~~
+      |                      first
+exercises.c:62:16: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+   62 |    int *dato = (int*)firts(L);
+      |                ^
+exercises.c:67:27: error: expected statement before ‘)’ token
+   67 |      dato = (int*)next(L);)
+      |                           ^
+cc1: all warnings being treated as errors
+Compilation failed
+7f61db7
