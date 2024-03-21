@@ -118,3 +118,17 @@ Thu 21 Mar 2024 03:03:08 PM UTC:
  tests:  3|2
 total_score: 40/70
 77752d0
+Thu 21 Mar 2024 03:04:33 PM UTC: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:105:3: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+  105 |   while((dato = pop(aux)) != NULL)
+      |   ^~~~~
+exercises.c:107:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+  107 |     push(P2, dato);
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+96d381c
